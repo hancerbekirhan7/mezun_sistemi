@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdnuploads.aa.com.tr/uploads/Contents/2022/01/16/thumbs_b_c_e722497e5b76f398ff14d02264439ea4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 123, 255, 0.8); /* Şeffaf arka plan */
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: red; /* Hakkında başlığı için */
+}
+
+p {
+    color: black; /* Paragrafların rengi */
+}
+
+#about {
+    background-color: white; /* Hakkında bölümünün arka plan rengi */
+    padding: 20px;
+    border-radius: 8px;
+}
